@@ -353,11 +353,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="map-container" style="height: 400px;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1507.7899727210754!2d29.16357341667327!3d40.90302828449641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac329abcb2283%3A0xd5a988744a2e9b92!2sDuravit%20Yetkili%20Servis%20Kartal%20Tesisat%C3%A7%C4%B1%20G%26G%20Tesisat%20Dekorasyon!5e0!3m2!1sen!2str!4v1743716383458!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-lg-6 col-md-12">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1507.7899727210754!2d29.16357341667327!3d40.90302828449641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac329abcb2283%3A0xd5a988744a2e9b92!2sDuravit%20Yetkili%20Servis%20Kartal%20Tesisat%C3%A7%C4%B1%20G%26G%20Tesisat%20Dekorasyon!5e0!3m2!1sen!2str!4v1743716383458!5m2!1sen!2str" 
+                            class="map-iframe"
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
+                
+                <style>
+                /* Only for screens smaller than 768px (mobile view) */
+                @media (max-width: 767.98px) {
+                  .map-container {
+                    position: relative;
+                    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                    height: 0;
+                    overflow: hidden;
+                  }
+                
+                  .map-container .map-iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100% !important;
+                    height: 100% !important;
+                  }
+                }
+                </style>
+                
+                
             </div>
         </div>
     </div>
