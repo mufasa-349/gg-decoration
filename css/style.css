@@ -158,6 +158,134 @@
     .top-bar .fa {
         font-size: 16px;
     }
+
+    .hero-header {
+        padding: 100px 0;
+    }
+
+    .hero-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-header p {
+        font-size: 1rem;
+    }
+
+    .service-item {
+        margin-bottom: 30px;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-icon i {
+        font-size: 1.5rem;
+    }
+
+    .partner-item {
+        height: 120px;
+        margin: 5px;
+    }
+
+    .partner-item img {
+        max-height: 80px;
+    }
+
+    .project-item {
+        margin-bottom: 20px;
+    }
+
+    .project-overlay h5 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contact-info-item {
+        margin-bottom: 20px;
+    }
+
+    .contact-info-item i {
+        font-size: 1.5rem;
+    }
+
+    .contact-info-item h5 {
+        font-size: 1rem;
+    }
+
+    .contact-info-item p {
+        font-size: 0.9rem;
+    }
+
+    .map-container {
+        height: 300px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-header {
+        padding: 80px 0;
+    }
+
+    .hero-header h1 {
+        font-size: 2rem;
+    }
+
+    .hero-header p {
+        font-size: 0.9rem;
+    }
+
+    .service-item {
+        margin-bottom: 20px;
+    }
+
+    .service-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service-icon i {
+        font-size: 1.2rem;
+    }
+
+    .partner-item {
+        height: 100px;
+        margin: 3px;
+    }
+
+    .partner-item img {
+        max-height: 60px;
+    }
+
+    .project-item {
+        margin-bottom: 15px;
+    }
+
+    .project-overlay h5 {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contact-info-item {
+        margin-bottom: 15px;
+    }
+
+    .contact-info-item i {
+        font-size: 1.2rem;
+    }
+
+    .contact-info-item h5 {
+        font-size: 0.9rem;
+    }
+
+    .contact-info-item p {
+        font-size: 0.8rem;
+    }
+
+    .map-container {
+        height: 250px;
+    }
 }
 
 @media (min-width: 992px) {
