@@ -45,21 +45,36 @@
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <img src="img/logo2.png" alt="G&G Tesisat Logo" style="max-height: 150px; margin-left: 30px;">
+                    <img src="img/logo2.png" alt="G&G Tesisat Logo" class="img-fluid" style="max-height: 150px;">
                 </a>
             </div>
             <div class="col-lg-9 col-md-12 text-end">
-                <div class="h-100 d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center me-4 contact-info">
                     <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">Orhantepe mahallesi Tekel caddesi Gonca sok. No:3/c Kartal/İstanbul</p>
+                    <p class="m-0 d-none d-md-inline">Orhantepe mahallesi Tekel caddesi Gonca sok. No:3/c Kartal/İstanbul</p>
+                    <p class="m-0 d-md-none">Orhantepe, Kartal/İstanbul</p>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center me-4 contact-info">
                     <i class="fa fa-phone text-primary me-2"></i>
                     <p class="m-0">0537 489 4900</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        @media (max-width: 767.98px) {
+            .top-bar {
+                padding: 10px 0;
+            }
+            .contact-info {
+                margin: 5px 0;
+            }
+            .navbar-brand img {
+                max-height: 100px !important;
+            }
+        }
+    </style>
     <!-- Topbar End -->
 
     <!-- About Start -->
